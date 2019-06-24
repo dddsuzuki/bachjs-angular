@@ -1,0 +1,17 @@
+{
+  "name": "bachjs-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@angular/core": "^7.2.15",
+    "rxjs": "^6.5.2"
+  }
+}

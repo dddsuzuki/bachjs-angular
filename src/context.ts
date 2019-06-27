@@ -7,7 +7,7 @@ export class Context {
   }
 
   get state() {
-    return this.store.getValue();
+    return this.store.getState();
   }
 
   dispatch(action: string, payload: any = {}) {

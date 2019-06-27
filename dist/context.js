@@ -18,7 +18,7 @@ var Context = /** @class */ (function () {
     }
     Object.defineProperty(Context.prototype, "state", {
         get: function () {
-            return this.store.getValue();
+            return this.store.getState();
         },
         enumerable: true,
         configurable: true
